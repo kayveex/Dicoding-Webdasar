@@ -1,0 +1,511 @@
+/* Header Section - Start */
+#pseudo_navbar {
+    width: 100%;
+    height: 75px;
+}
+
+
+.navbar_top {
+    width: 100%;
+    height: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--bg-color);
+    top: 0;
+    z-index: 999;
+    position: fixed;
+}
+
+/* Buat Navbar Shadow */
+.navbar_shadow {
+    box-shadow: 0px 5px 28.3px 0px rgba(0, 0, 0, 0.25);
+}
+
+#risu_logo {
+    height: 40px;
+    width: 160px;
+    object-fit: contain;
+    padding-left: 50px;
+}
+
+#nav_list {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    margin-left: 285px;
+    flex-direction: row;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav_link:active {
+    color: var(--acc-color);
+}
+
+.nav_link:hover {
+    color: var(--acc-color);
+}
+
+#cart {
+    position: absolute;
+    top: 45px;
+    right: 50px;
+}
+
+#hamburger {
+    display: none;
+}
+
+
+/* Header Section - End */
+
+/* Main Section - Start */
+#tentang_section {
+    width: 100%;
+    min-width: 640px;
+    height: 600px;
+    background-image: url('../img/tentang_bg.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+#left_tentang {
+    width: 50%;
+    display: flex;
+
+}
+
+#risu_fig {
+    height: 438px;
+    position:absolute;
+    top: 14.8rem;
+    left: 16rem;
+}
+
+#right_tentang {
+    width: 50%;
+    padding-left: 144px ;
+}
+
+#title_wrap {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: var(--acc-color);
+}
+
+#title_wrap > h1 {
+    font-size: 36px ;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+#below_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem ;
+}
+
+#below_wrap > h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#voice_btn {
+    background-color: transparent;
+    outline: none;
+    border-radius: 43px;
+    border: 1px solid #FFBAC7;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 28px;
+}
+
+#text_wrap {
+    width: 511px;
+    text-align: justify;
+}
+
+#text_wrap > h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#text_wrap > p {
+    color: var(--gray-color);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+#btn_wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    margin-top: 2rem;
+}
+
+.button_style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 72px;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #FFBAC7;
+    width: 245px;
+    height: 36px;
+}
+
+.button_style > h4 {
+    color: var(--acc-color);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.link_btn {
+    text-decoration: none;
+    color: var(--acc-color);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 12px;
+}
+
+#info_section {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+#info_section > .section_title_wrap {
+    margin-top: 72px;
+}
+
+.video_debut {
+    margin: 4rem auto;
+    border: 5px solid #FFBAC7;
+    border-radius: 1rem;
+}
+
+#genmates_banner {
+    background-image: url('../img/genmates.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+#genmates_banner > .section_title_wrap {
+    padding-top: 8rem;
+}
+
+#genmates_section {
+    height: 1121px;
+    width: 100%;
+}
+
+#cards_genmate {
+    display: flex;
+    flex-direction: row;
+    padding: 110px 50px;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_genmate {
+    width: 400px;
+    height: 500px;
+    background-color: var(--acc-color);
+    border-radius: 20px ;
+    box-shadow: 0px 4px 12.3px 0px rgba(0, 0, 0, 0.76);
+    display: flex;
+    flex-direction: column;
+}
+
+.card_img {
+    object-fit: contain;
+    height: 317px;
+    width: 331px;
+    margin: 2rem auto;
+}
+
+.card_name {
+    text-align: center;
+}
+
+.card_name > h4 {
+    font-size: 36px ;
+    margin-top: 0;
+}
+
+.card_name > h5 {
+    font-size: 16px;
+    margin-top: -3.5rem;
+}
+
+#merch_section {
+    height: 1050px;
+    width: 100%;
+}
+
+#merch_banner {
+    background-image: url('../img/merch.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+#merch_banner > .section_title_wrap {
+    padding-top: 8rem;
+}
+
+#merch_content {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    margin: 4rem 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#left_merch {
+    display: flex;
+    flex-direction: column;
+    gap: 25px ;
+
+}
+
+.merch_card {
+    width: 824px;
+    height: 150px;
+    background-color: var(--acc-color);
+    border-radius: 20px;
+    box-shadow: 0px 4px 12.3px 0px rgba(0, 0, 0, 0.76);
+}
+
+#right_merch {
+    width: 400px;
+    height: 500px;
+    background-color: var(--acc-color);
+    border-radius: 20px;
+    box-shadow: 0px 4px 12.3px 0px rgba(0, 0, 0, 0.76);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#aside_text {
+    text-align: center;
+}
+
+#aside_text > h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--bg-color);
+}
+
+.accent_aside {
+    width: 251px;
+    height: 14px;
+    border-radius: 48px;
+    background-color: var(--holo-color);
+    margin: 0 auto;
+    margin-top: -3.6rem;
+}
+
+#poster_aside {
+    height: 293px;
+    width: 293px;
+    padding: 1rem 1rem;
+}
+
+#aside_btn {
+    width: 293px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    border-radius: 10px;
+    border: 2px solid #21232C;
+    background: #43C5F5;
+    text-decoration: none;
+    color: var(--bg-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.wrap_merch_card {
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+}
+
+.merch_pic {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.text_merch {
+    font-size: 28px;
+    color: var(--bg-color);
+    font-weight: 600;
+    align-content: center;
+    justify-content: center;
+}
+
+.blue_text_acc {
+    width: 171px;
+    height: 5px;
+    background-color: var(--holo-color);
+    margin-top: -2rem;
+}
+
+#albums_section {
+    height: 850px;
+    width: 100%;
+}
+
+.albums_cards {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem 50px;
+    gap: 33px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.album_card {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    background: var(--acc-color);
+    box-shadow: 0px 4px 12.3px 0px rgba(0, 0, 0, 0.76);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.wrap_album {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.album_img {
+    object-fit: contain;
+    height: 317px;
+    width: 100%;
+}
+
+.wrap_album_title {
+    text-align: center;
+}
+
+.wrap_album_title > h4 {
+    font-size: 36px ;
+    font-weight: 700;
+    color: var(--bg-color);
+}
+
+#albums_section > .section_title_wrap {
+    margin-top: 36px;
+}
+
+#footer_section {
+    height: 120px;
+    width: 100%;
+    background-color: var(--acc-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 1rem;
+}
+
+#footer_sns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px ;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--bg-color);
+    margin-top: 2px;
+}
+/* Main Section - End */
+
+/* Footer Section - Start */
+
+
+
+/* Footer Section - End */
+
+
+/* Misc - Start */
+.borderline {
+    background-color: var(--acc-color);
+    width: 100%;
+    height: 50px ;
+}
+
+.section_title_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_title_wrap > h1 {
+    text-align: center;
+    color: white ;
+    font-size: 48px ;
+    font-weight: 600 ;
+}
+
+.underline_acc {
+    background-color: var(--acc-color);
+    width: 95px;
+    height: 5px;
+    margin-top: -2.5rem;
+}
+
+
+/* Misc - End */

@@ -1,0 +1,397 @@
+
+/* Setting Layar Min 640px dan Layar Maks 800px */
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+
+    /* Header Section - Start */
+
+    #nav_list {
+        display: none;
+    }
+
+    #hamburger {
+        position: absolute;
+        top: 50px;
+        right: 110px;
+        display: flex;
+    }
+
+
+
+    /* Header Section - End */
+
+    /* Main Section - Start */
+    #tentang_section {
+        background-image: url('../img/mobile/tentang_mobile.png');
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+
+    #risu_fig {
+        display: none;
+    }
+
+    #left_tentang {
+        display: none;
+    }
+
+    #right_tentang {
+        width: 500px;
+        padding-left: 4rem;
+    }
+
+    #title_wrap {
+        text-align: center;
+    }
+
+    #below_wrap {
+        justify-content: center;
+    }
+
+    .video_debut  {
+        width: 400px;
+    }
+
+    #cards_genmate {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #genmates_section {
+        height: 1900px;
+    }
+
+    .card_genmate {
+        width: 300px;
+        height: 400px;
+    }
+
+    .card_img {
+        width: 250px;
+    }
+
+    .card_name {
+        margin-top: -1rem;
+    }
+
+    .card_name > h4 {
+        font-size: 28px ;
+        margin-top: 0;
+    }
+    
+    .card_name > h5 {
+        font-size: 12px;
+        margin-top: -2.5rem;
+    }
+
+    #merch_content {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+        margin: 4rem 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .merch_card {
+        width: 500px;
+        height: 120px;
+    }
+
+    .wrap_merch_card {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .text_merch {
+        font-size: 16px;
+        color: var(--bg-color);
+        font-weight: 600;
+        align-content: center;
+        justify-content: center;
+        padding-top: 1.5rem;
+    }
+    
+    .blue_text_acc {
+        width: 100px;
+        height: 5px;
+        background-color: var(--holo-color);
+        margin-top: -1.5rem;
+    }
+
+    .merch_pic {
+        width: 200px;
+    }
+
+    #merch_section {
+        height: 1500px;
+        width: 100%;
+    }
+
+    #albums_section {
+        height: 1700px;
+        width: 100%;
+    }
+
+
+    .albums_cards {
+        display: flex;
+        flex-direction: column;
+        margin: 5rem 50px;
+        gap: 33px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .album_card {
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+        background: var(--acc-color);
+        box-shadow: 0px 4px 12.3px 0px rgba(0, 0, 0, 0.76);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .album_img {
+        object-fit: contain;
+        height: 240px;
+        width: 100%;
+    }
+
+    #copyright {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--bg-color);
+        margin-top: 2px;
+    }
+
+    /* Main Section - End */
+
+}
+
+
+/* Setting Layar Min 480px dan Layar Maks 640px */
+
+@media screen and (min-width: 480px) and (max-width: 640px) {
+
+    /* Header Section - Start */
+
+    #nav_list {
+        display: none;
+    }
+
+    #hamburger {
+        position: absolute;
+        top: 50px;
+        right: 110px;
+        display: flex;
+    }
+
+
+
+    /* Header Section - End */
+
+    /* Main Section - Start */
+    #tentang_section {
+        background-image: url('../img/mobile/tentang_mobile.png');
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column;
+        min-width: 480px;
+        width: 100%;
+    }
+
+    #text_wrap {
+        width: 300px;
+        text-align: justify;
+        padding-left: 6rem;
+    }
+
+    #text_wrap > h3 {
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    
+    }
+    
+    #text_wrap > p {
+        color: var(--gray-color);
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+
+    #btn_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 21px;
+        margin-top: 2rem;
+    }
+
+    #risu_fig {
+        display: none;
+    }
+
+    #left_tentang {
+        display: none;
+    }
+
+    #right_tentang {
+        width: 500px;
+        padding-left: 1rem;
+    }
+
+    #title_wrap {
+        text-align: center;
+    }
+
+    #below_wrap {
+        justify-content: center;
+    }
+
+    .video_debut  {
+        width: 400px;
+    }
+
+    #cards_genmate {
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    #genmates_section {
+        height: 1900px;
+    }
+
+    .card_genmate {
+        width: 300px;
+        height: 400px;
+    }
+
+    .card_img {
+        width: 250px;
+    }
+
+    .card_name {
+        margin-top: -1rem;
+    }
+
+    .card_name > h4 {
+        font-size: 28px ;
+        margin-top: 0;
+    }
+    
+    .card_name > h5 {
+        font-size: 12px;
+        margin-top: -2.5rem;
+    }
+
+    #merch_content {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+        margin: 4rem 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .merch_card {
+        width: 500px;
+        height: 120px;
+    }
+
+    .wrap_merch_card {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .text_merch {
+        font-size: 16px;
+        color: var(--bg-color);
+        font-weight: 600;
+        align-content: center;
+        justify-content: center;
+        padding-top: 1.5rem;
+    }
+    
+    .blue_text_acc {
+        width: 100px;
+        height: 5px;
+        background-color: var(--holo-color);
+        margin-top: -1.5rem;
+    }
+
+    .merch_pic {
+        width: 200px;
+    }
+
+    #merch_section {
+        height: 1500px;
+        width: 100%;
+    }
+
+    #albums_section {
+        height: 1700px;
+        width: 100%;
+    }
+
+
+    .albums_cards {
+        display: flex;
+        flex-direction: column;
+        margin: 5rem 50px;
+        gap: 33px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .album_card {
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+        background: var(--acc-color);
+        box-shadow: 0px 4px 12.3px 0px rgba(0, 0, 0, 0.76);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .album_img {
+        object-fit: contain;
+        height: 240px;
+        width: 100%;
+    }
+
+    #copyright {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--bg-color);
+        margin-top: 2px;
+    }
+
+    /* Main Section - End */
+
+}
